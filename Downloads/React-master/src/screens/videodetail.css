@@ -1,0 +1,153 @@
+.video-detail-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.video-content {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.video-content video {
+  width: 60%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.video-info {
+  width: 40%;
+}
+
+.video-info h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.video-info p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.interaction-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.interaction-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.like-button {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.like-button.liked {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.share-button {
+  background-color: #2196F3;
+  color: white;
+}
+
+.share-options {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.share-options button {
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  text-align: left;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.comments-section {
+  margin-top: 30px;
+}
+
+.comments-section h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.add-comment {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-comment input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-comment button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comment {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.comment p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.comment-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.comment-actions button {
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  margin-top: 50px;
+}
